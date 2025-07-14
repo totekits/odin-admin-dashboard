@@ -48,4 +48,34 @@ body {
 
 .main-content {
   grid-area: 2 / 2 / 3 / 3;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr 5fr 1fr 5fr;
+}
+
+.your-projects {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.projects {
+  grid-area: 2 / 1 / 5 / 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.announcements {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.ann-contents {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.trending {
+  grid-area: 3 / 2 / 4 / 3;
+}
+
+.trend-contents {
+  grid-area: 4 / 2 / 5 / 3;
 }
