@@ -26,8 +26,24 @@ body {
   display: grid;
 }
 
-.sidebar div div {
-  border: 1px solid orange;
+.site-header {
+  background-color: #fff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #222;
+}
+
+.logo-icon {
+  width: 48px;
+  height: 48px;
+}
+
+.logo-text {
+  font-size: 1.5rem;
 }
 
 .header {
