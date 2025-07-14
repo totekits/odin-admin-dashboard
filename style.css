@@ -35,6 +35,7 @@ body {
   align-items: center;
   text-decoration: none;
   color: #222;
+  gap: 0.5rem;
 }
 
 .logo-icon {
@@ -44,6 +45,27 @@ body {
 
 .logo-text {
   font-size: 1.5rem;
+}
+
+.nav-list {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.nav-item a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  gap: 0.5rem;
+}
+
+.nav-icon {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
 }
 
 .header {
