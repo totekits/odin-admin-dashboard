@@ -32,6 +32,18 @@ body {
 
 .header {
   grid-area: 1 / 2 / 2 / 3;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.header-top {
+  display: grid;
+  grid-template-columns: 7fr 1fr 1fr 1fr;
+}
+
+.header-bottom {
+  display: grid;
+  grid-template-columns: 1fr 6fr 1fr 1fr 1fr;
 }
 
 .main-content {
