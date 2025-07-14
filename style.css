@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 div {
   border: 1px solid greenyellow;
 }
@@ -13,6 +17,17 @@ body {
 
 .sidebar {
   grid-area: 1 / 1 / 3 / 2;
+  display: grid;
+  grid-template-rows: 72px 144px 72px;
+  gap: 24px;
+}
+
+.sidebar div {
+  display: grid;
+}
+
+.sidebar div div {
+  border: 1px solid orange;
 }
 
 .header {
